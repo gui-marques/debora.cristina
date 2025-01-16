@@ -1,5 +1,6 @@
 import { ServicesList } from './ServicesList';
 import { CircleDot } from 'lucide-react';
+import Eu from '../../imagens/eu.png'
 
 const benefits = [
   "Aumento da Visibilidade Online",
@@ -58,7 +59,7 @@ export const Services = () => {
             {/* Right Column - Image */}
             <div className="w-full md:w-1/2">
               <img
-                src="/src/imagens/eu.png"
+                src={Eu}
                 alt="Profissional de Marketing Digital"
                 className="w-full h-auto object-contain"
               />
