@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-[#f5e6d3];
+  }
+}
+
+.social-icon {
+  @apply w-16 h-16 bg-white rounded-xl shadow-lg flex items-center justify-center hover:transform hover:scale-110 transition-transform duration-300;
+}
+
+.section-title {
+  @apply text-3xl font-bold text-[#4a3728] mb-6;
+}
+
+.section-text {
+  @apply text-lg text-[#6b5d4f];
+}
