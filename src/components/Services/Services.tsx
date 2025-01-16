@@ -1,4 +1,3 @@
-import React from 'react';
 import { ServicesList } from './ServicesList';
 import { CircleDot } from 'lucide-react';
 
