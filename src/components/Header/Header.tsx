@@ -1,6 +1,7 @@
 import { Logo } from './Logo';
 import { SocialIcons } from './SocialIcons';
 import Traco from '../../imagens/traco.png'
+import Db from '../../imagens/db.svg'
 
 export const Header = () => {
   return (
@@ -32,7 +33,7 @@ export const Header = () => {
 
           <div className="relative h-[400px] md:h-[600px] mt-0 lg:mt-0">
             <img
-              src="/src/imagens/db.svg"
+              src={Db}
               alt="Débora Cristina"
               className="absolute bottom-0 right-[100px] lg:right-[200px] h-[380px] md:h-[480px] object-contain z-10"
             />
