@@ -1,11 +1,11 @@
 
 export const SocialIcons = () => {
   const socialIcons = [
-    { src: '/src/imagens/tiktok.svg', alt: 'TikTok' },
-    { src: '/src/imagens/face.svg', alt: 'Facebook' },
-    { src: '/src/imagens/twitch.svg', alt: 'Twitch' },
-    { src: '/src/imagens/insta.svg', alt: 'Instagram' },
-    { src: '/src/imagens/yt.svg', alt: 'YouTube' },
+    { src: '../src/imagens/tiktok.svg', alt: 'TikTok' },
+    { src: '../src/imagens/face.svg', alt: 'Facebook' },
+    { src: '../src/imagens/twitch.svg', alt: 'Twitch' },
+    { src: '../src/imagens/insta.svg', alt: 'Instagram' },
+    { src: '../src/imagens/yt.svg', alt: 'YouTube' },
   ];
 
   return (
