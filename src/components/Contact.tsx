@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Instagram, MessageCircle, Send } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import Sobre from '../imagens/sobre.png'
+import Logo from '../imagens/logo.png'
 
 export const Contact = () => {
   const [name, setName] = useState('');
@@ -45,7 +47,7 @@ export const Contact = () => {
     <section id="contact" className="relative py-16 bg-[#E5D5C5] overflow-hidden">
       <div className="max-w-7xl mx-auto px-4">
         <div className="absolute top-8 right-8">
-          <img src="/src/imagens/logo.png" alt="Logo" className="h-16 opacity-30" />
+          <img src={Logo} alt="Logo" className="h-16 opacity-30" />
         </div>
         <div className="flex flex-col max-w-6xl mx-auto relative">
           <div className="text-center mb-16">
@@ -57,7 +59,7 @@ export const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             <div className="relative">
               <img
-                src="/src/imagens/sobre.png"
+                src={Sobre}
                 alt="Profile"
                 className="w-full rounded-2xl shadow-xl"
               />

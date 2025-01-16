@@ -1,4 +1,4 @@
-import React from 'react';
+import Sobre from '../imagens/sobre.png'
 import { Heart, Bookmark } from 'lucide-react';
 
 export const About = () => {
@@ -8,7 +8,7 @@ export const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div className="relative bg-white p-12 rounded-lg shadow-lg max-w-md mx-auto">
             <img
-              src="/src/imagens/sobre.png"
+              src={Sobre}
               alt="Profile"
               className="w-full rounded-lg"
             />

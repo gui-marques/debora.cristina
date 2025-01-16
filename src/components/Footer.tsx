@@ -1,4 +1,5 @@
 import { Instagram, Facebook, Youtube, Mail, Phone } from 'lucide-react';
+import Logo from '../imagens/logo.png'
 
 export const Footer = () => {
   return (
@@ -7,7 +8,7 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Company Info */}
           <div>
-            <img src="/src/imagens/logo.png" alt="Logo" className="h-16 mb-6" />
+            <img src={Logo} alt="Logo" className="h-16 mb-6" />
             <p className="text-sm text-gray-300 mb-4">
               Transformando pequenos negócios em grandes marcas através do marketing digital.
             </p>

@@ -1,11 +1,16 @@
+import Tiktok from '../../imagens/tiktok.svg'
+import Facebook from '../../imagens/face.svg'
+import Twitch from '../../imagens/twitch.svg'
+import Instagram from '../../imagens/insta.svg'
+import YouTube from '../../imagens/yt.svg'
 
 export const SocialIcons = () => {
   const socialIcons = [
-    { src: '../src/imagens/tiktok.svg', alt: 'TikTok' },
-    { src: '../src/imagens/face.svg', alt: 'Facebook' },
-    { src: '../src/imagens/twitch.svg', alt: 'Twitch' },
-    { src: '../src/imagens/insta.svg', alt: 'Instagram' },
-    { src: '../src/imagens/yt.svg', alt: 'YouTube' },
+    { src: Tiktok, alt: 'Tiktok'  },
+    { src: Facebook, alt: 'Facebook' },
+    { src: Twitch, alt: 'Twitch' },
+    { src: Instagram, alt: 'Instagram' },
+    { src: YouTube, alt: 'YouTube' },
   ];
 
   return (
