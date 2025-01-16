@@ -1,6 +1,6 @@
-import React from 'react';
 import { Logo } from './Logo';
 import { SocialIcons } from './SocialIcons';
+import Traco from '../../imagens/traco.png'
 
 export const Header = () => {
   return (
@@ -15,7 +15,7 @@ export const Header = () => {
                   MINHA MISSÃO
                 </p>
                 <img
-                  src="/src/imagens/traco.png"
+                  src={Traco}
                   alt="linha"
                   className="w-[200px] md:w-[400px] h-[6px] self-center"
                 />
