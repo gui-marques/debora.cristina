@@ -1,7 +1,7 @@
 import { Logo } from './Logo';
 import { SocialIcons } from './SocialIcons';
 import Traco from '../../imagens/traco.png'
-import Db from '../../imagens/db.svg'
+import Db from '../../imagens/db.png'
 
 export const Header = () => {
   return (
