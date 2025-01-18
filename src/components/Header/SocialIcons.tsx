@@ -1,8 +1,8 @@
-import Tiktok from '../../imagens/tiktok.svg'
-import Facebook from '../../imagens/face.svg'
-import Twitch from '../../imagens/twitch.svg'
-import Instagram from '../../imagens/insta.svg'
-import YouTube from '../../imagens/yt.svg'
+import Tiktok from '../../imagens/tiktok.png'
+import Facebook from '../../imagens/face.png'
+import Twitch from '../../imagens/twitch.png'
+import Instagram from '../../imagens/insta.png'
+import YouTube from '../../imagens/yt.png'
 
 export const SocialIcons = () => {
   const socialIcons = [
